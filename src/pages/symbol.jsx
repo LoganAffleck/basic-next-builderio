@@ -5,6 +5,8 @@ import { builder, useIsPreviewing } from "@builder.io/react";
 import DefaultErrorPage from "next/error";
 import Head from "next/head";
 import { RenderBuilderContent } from "../components/builder";
+import '../globals.css'
+
 
 // Replace with your Public API Key
 builder.init(process.env.NEXT_PUBLIC_BUILDER_API_KEY);
